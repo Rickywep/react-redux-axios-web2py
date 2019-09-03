@@ -1,0 +1,39 @@
+{
+  "productos": [
+    {
+      "nombre": "ahora?",
+      "precio": "1",
+      "id": 20
+    },
+    {
+      "nombre": "no entiendo",
+      "precio": "1",
+      "id": 21
+    },
+    {
+      "nombre": "pero",
+      "precio": "1",
+      "id": 22
+    },
+    {
+      "nombre": "anda",
+      "precio": "1",
+      "id": 23
+    },
+    {
+      "nombre": "asdasd",
+      "precio": "1",
+      "id": 24
+    },
+    {
+      "nombre": "prueba",
+      "precio": "1",
+      "id": 25
+    },
+    {
+      "nombre": "asd",
+      "precio": "1",
+      "id": 26
+    }
+  ]
+}
