@@ -12,7 +12,7 @@ class Header extends Component {
                          <Link to={'/'} className="text-light">Programacion Web - React, Redux, Web2py API & Axios</Link>
                     </h4>
 
-                    <Nav>
+                    <Nav variant="tabs">
                          <Nav.Item>
                               <Nav.Link href="/" className="text-light">Productos</Nav.Link>
                          </Nav.Item>
