@@ -1,1 +1,1 @@
-Proyecto final para la materia de programacion web de la facultad UTN-FRT 
+Proyecto final para la materia de programacion web de la facultad UTN-FRT. Es un CRUD utilizando react y redux, y para el backend python con el framework web2py hosteado en [https://www.pythonanywhere.com/] conectando a travez de un apirest utilizando axios

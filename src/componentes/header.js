@@ -1,30 +1,25 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
-
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
 class Header extends Component {
-
-     render() {
-          return (
-               <div className="navbar navbar-expand-lg navbar-light bg-success justify-content-between d-flex">
-                    <h4>
-                         <Link to={'/'} className="text-light">Programacion Web - React, Redux, Web2py API & Axios</Link>
-                    </h4>
-
-                    <Nav variant="tabs">
-                         <Nav.Item>
-                              <Nav.Link href="/" className="text-light">Productos</Nav.Link>
-                         </Nav.Item>
-                         <Nav.Item>
-                                   {/* <Link to="/productos/nuevo" className="text-light">Agregar</Link> */}
-                              <Nav.Link href="/productos/nuevo" className="text-light"> Agregar
-                              </Nav.Link>
-                         </Nav.Item>
-                    </Nav>
-               </div>
-          );
-     }
+  render() {
+    return (
+      <Navbar bg="dark" expand="lg">
+        <Navbar.Brand>
+          <Link to="/" className="text-white link">
+            Proyecto Programacion Web UTN-FRT - React, Redux, Web2py API &
+            Axios
+          </Link>
+        </Navbar.Brand>
+        <Nav className="mr-auto">
+        </Nav>
+          <Link to="/" className="text-light mr-2">
+            Productos
+          </Link>
+      </Navbar>
+    );
+  }
 }
 
 export default Header;
